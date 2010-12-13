@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="AE768F6B-A31D-49F1-834D-A5EC7D76A518" ModuleId="TutorialEntityFrameworkCTP.Modelo" />
+  <Module PersistentId="50669733-36D5-47A8-8BB4-067199386E14" ModuleId="TutorialEntityFrameworkCTP.Infra" />
+  <Module PersistentId="19548A92-68D8-4373-8391-B81079C7D8D7" ModuleId="TutorialEntityFrameworkCTP.Console" />
+</Modules>
