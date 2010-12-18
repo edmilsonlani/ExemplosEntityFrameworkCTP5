@@ -8,8 +8,8 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="new" priority="2" />
-      <Item value="ContextoEF`0" priority="0" />
+      <Item value="new" priority="10" />
+      <Item value="ContextoEF`0" priority="2" />
       <Item value="Autor`0" priority="1" />
       <Item value="autor" priority="0" />
       <Item value="Autor" priority="0" />
@@ -21,17 +21,44 @@
       <Item value="editora" priority="1" />
       <Item value="Editora" priority="0" />
       <Item value="override" priority="0" />
-      <Item value="modelBuilder" priority="0" />
+      <Item value="modelBuilder" priority="3" />
       <Item value="Livro`0" priority="0" />
       <Item value="l" priority="0" />
       <Item value="cw" priority="0" />
       <Item value="Console`0" priority="2" />
+      <Item value="prop" priority="2" />
+      <Item value="int" priority="0" />
+      <Item value="string" priority="1" />
+      <Item value="virtual" priority="0" />
+      <Item value="TutorialEntityFrameworkCTP" priority="0" />
+      <Item value="HashSet" priority="0" />
+      <Item value="ctor" priority="0" />
+      <Item value="HasKey`1" priority="0" />
+      <Item value="Property`0" priority="2" />
+      <Item value="ToTable`0" priority="0" />
+      <Item value="Livraria`0" priority="1" />
+      <Item value="livraria" priority="0" />
+      <Item value="Livraria" priority="0" />
+      <Item value="livrariaCultura" priority="4" />
+      <Item value="contexto" priority="5" />
+      <Item value="false" priority="0" />
+      <Item value="IDatabaseInitializer" priority="2" />
+      <Item value="null" priority="1" />
+      <Item value="Database" priority="1" />
+      <Item value="this" priority="0" />
+      <Item value="DbDatabase" priority="0" />
+      <Item value="Set`0" priority="0" />
+      <Item value="DbDatabase`0" priority="1" />
+      <Item value="CreateDatabaseIfNotExists" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="teste`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:TutorialEntityFrameworkCTP.Modelo.ContextoEF">
       <Item value="Autores" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Data.Entity.ModelConfiguration.ModelBuilder">
       <Item value="Entity`1" priority="0" />
+      <Item value="Configurations" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1">
       <Item value="HasKey`1" priority="0" />
@@ -53,27 +80,71 @@
     <ItemStatistics item="Qualified:@System.Console">
       <Item value="ReadKey`0" priority="0" />
     </ItemStatistics>
+    <ItemStatistics item="Qualified:TutorialEntityFrameworkCTP.Modelo.Livraria">
+      <Item value="LivrariaID" priority="3" />
+      <Item value="Nome" priority="1" />
+      <Item value="Telefone" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.ModelConfiguration.Configuration.Properties.Primitive.Api.StringPropertyConfiguration">
+      <Item value="HasColumnName`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.ModelConfiguration.Configuration.Properties.Primitive.Api.PrimitivePropertyConfiguration`1">
+      <Item value="HasColumnName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.ModelConfiguration.Configuration.ConfigurationRegistrar">
+      <Item value="Add`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TutorialEntityFrameworkCTP.Infra.ContextoEF">
+      <Item value="Livrarias" priority="0" />
+      <Item value="SaveChanges`0" priority="0" />
+      <Item value="Database" priority="4" />
+      <Item value="Configuration" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.IDbSet`1">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.Database.DbDatabase">
+      <Item value="Initialize`0" priority="2" />
+      <Item value="CompatibleWithModel`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.Infrastructure.DbContextConfiguration">
+      <Item value="AutoDetectChangesEnabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.Entity.Database.DbDatabase">
+      <Item value="SetInitializer`1" priority="1" />
+    </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
       <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:App.config" caret="276" fromTop="4" />
       <File id="AE768F6B-A31D-49F1-834D-A5EC7D76A518/f:Livro.cs" caret="452" fromTop="12" />
-      <File id="50669733-36D5-47A8-8BB4-067199386E14/f:ContextoEF.cs" caret="267" fromTop="8" />
       <File id="AE768F6B-A31D-49F1-834D-A5EC7D76A518/f:Editora.cs" caret="336" fromTop="12" />
       <File id="AE768F6B-A31D-49F1-834D-A5EC7D76A518/f:Autor.cs" caret="205" fromTop="9" />
-      <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:Program.cs" caret="1118" fromTop="19" />
+      <File id="AE768F6B-A31D-49F1-834D-A5EC7D76A518/f:Livraria.cs" caret="336" fromTop="12" />
+      <File id="50669733-36D5-47A8-8BB4-067199386E14/f:ConfiguracaoLivraria.cs" caret="307" fromTop="10" />
+      <File id="50669733-36D5-47A8-8BB4-067199386E14/f:ContextoEF.cs" caret="885" fromTop="20" />
+      <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:Program.cs" caret="359" fromTop="1" />
+      <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:NeverChangeDatabase.cs" caret="297" fromTop="11" />
     </RecentFiles>
     <RecentEdits>
       <File id="50669733-36D5-47A8-8BB4-067199386E14/f:ContextoEF.cs" caret="13" fromTop="3" />
       <File id="AE768F6B-A31D-49F1-834D-A5EC7D76A518/f:Autor.cs" caret="388" fromTop="12" />
-      <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:Program.cs" caret="361" fromTop="5" />
-      <File id="50669733-36D5-47A8-8BB4-067199386E14/f:ContextoEF.cs" caret="113" fromTop="3" />
+      <File id="50669733-36D5-47A8-8BB4-067199386E14/f:ContextoEF.cs" caret="149" fromTop="3" />
       <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:App.config" caret="254" fromTop="4" />
       <File id="AE768F6B-A31D-49F1-834D-A5EC7D76A518/f:Livro.cs" caret="452" fromTop="12" />
-      <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:Program.cs" caret="417" fromTop="8" />
       <File id="AE768F6B-A31D-49F1-834D-A5EC7D76A518/f:Autor.cs" caret="205" fromTop="9" />
-      <File id="50669733-36D5-47A8-8BB4-067199386E14/f:ContextoEF.cs" caret="702" fromTop="15" />
-      <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:Program.cs" caret="1118" fromTop="19" />
+      <File id="50669733-36D5-47A8-8BB4-067199386E14/f:ContextoEF.cs" caret="869" fromTop="15" />
+      <File id="AE768F6B-A31D-49F1-834D-A5EC7D76A518/f:Livraria.cs" caret="309" fromTop="11" />
+      <File id="50669733-36D5-47A8-8BB4-067199386E14/f:ContextoEF.cs" caret="616" fromTop="13" />
+      <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:Program.cs" caret="917" fromTop="7" />
+      <File id="50669733-36D5-47A8-8BB4-067199386E14/f:ContextoEF.cs" caret="606" fromTop="15" />
+      <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:Program.cs" caret="393" fromTop="10" />
+      <File id="50669733-36D5-47A8-8BB4-067199386E14/f:ConfiguracaoLivraria.cs" caret="611" fromTop="16" />
+      <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:Program.cs" caret="1733" fromTop="22" />
+      <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:Program.cs" caret="918" fromTop="7" />
+      <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:Program.cs" caret="393" fromTop="4" />
+      <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:Program.cs" caret="518" fromTop="2" />
+      <File id="19548A92-68D8-4373-8391-B81079C7D8D7/f:Program.cs" caret="359" fromTop="1" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
